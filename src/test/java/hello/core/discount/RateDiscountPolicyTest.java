@@ -37,7 +37,7 @@ class RateDiscountPolicyTest {
         int discount1 = discountPolicy.discount(member, 10000);
 
         //then
-        assertThat(discount1).isEqualTo(1000);
+        assertThat(discount1).isEqualTo(0);
     }
 
 
